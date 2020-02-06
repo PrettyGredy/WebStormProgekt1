@@ -1,0 +1,89 @@
+
+body {
+    background-image: url("https://cdn2.static1-sima-land.com/items/3001814/1/700-nw.jpg");
+    background-attachment: scroll;
+}
+
+header {
+    background-color: DarkGray;
+    border: 2px double black;
+    height: 80px;
+    width: calc(100% - 20px);
+    margin: 25px;
+    padding: 10px;
+    font-size: 0.9em;
+    float: inherit;
+}
+footer {
+    background-color: DarkGray;
+    border: 2px double black;
+    height: 25px;
+    width: calc(100% - 20px);
+    margin: 25px;
+    padding: 10px;
+    font-size: 0.9em;
+    float: inherit;
+    font-weight: bold;
+}
+
+.block-parrent {
+    border: 4px double DimGrey;
+    border-radius: 8px;
+    height: 1500px;
+    background-color: DarkGray;
+    width: calc(100% - 20px);
+    margin: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+    padding: 15px;
+    float: inherit;
+}
+
+.aside-righr {
+    background: GhostWhite;
+    padding: 5px;
+    width: 320px;
+    height: 100%;
+    border-radius: 8px;
+    float: right;
+}
+
+.aside-left {
+    background: GhostWhite;
+    padding: 5px;
+    width: 180px;
+    height: 100%;
+    border-radius: 8px;
+    float: left;
+}
+
+.block-dother {
+    border: 4px double silver;
+    border-radius: 15px;
+    height: 320px;
+    width: 730px;
+    background-color: GhostWhite;
+    margin: 10px;
+    margin-left: 180px;
+    padding: 15px;
+    float: left;
+}
+
+.description-on-block {
+    float: left;
+    display: inline;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 0.9em;
+}
+
+.information-on-block {
+    float: left;
+    display: inline;
+    width: 450px;
+    height: 25px;
+    margin-top: 75px;
+    margin-left: 15px;
+    font-size: 0.8em;
+}
