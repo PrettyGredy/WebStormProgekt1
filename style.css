@@ -8,17 +8,17 @@ header {
     background-color: DarkGray;
     border: 2px double black;
     height: 80px;
-    width: calc(100% - 20px);
+    width: calc(100% - 50px);
     margin: 25px;
     padding: 10px;
-    font-size: 0.9em;
+    font-size: 0.5em;
     float: inherit;
 }
 footer {
     background-color: DarkGray;
     border: 2px double black;
     height: 25px;
-    width: calc(100% - 20px);
+    width: calc(100% - 50px);
     margin: 25px;
     padding: 10px;
     font-size: 0.9em;
@@ -31,7 +31,7 @@ footer {
     border-radius: 8px;
     height: 1500px;
     background-color: DarkGray;
-    width: calc(100% - 20px);
+    width: calc(100% - 210px);
     margin: 20px;
     margin-left: 95px;
     margin-right: 95px;
@@ -51,7 +51,7 @@ footer {
 .aside-left {
     background: GhostWhite;
     padding: 5px;
-    width: 180px;
+    width: 210px;
     height: 100%;
     border-radius: 8px;
     float: left;
@@ -86,4 +86,29 @@ footer {
     margin-top: 75px;
     margin-left: 15px;
     font-size: 0.8em;
+}
+
+.button {
+    margin-top: 5px;
+    margin-left: 23px;
+    margin-bottom: 5px;
+    border: 2px double #4CAF50;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    float: left;
+}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.registration-blocks {
+    background-color: #e7e7e7;
+    border: 2px double ghostwhite;
+    border-radius: 8px;
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    float: left;
 }

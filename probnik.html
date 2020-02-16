@@ -4,108 +4,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>страничка с CSS</title>
-
+    <script src="jsProbnik.js"></script>
 </head>
 <body>
 <header>
-    <center> <h1>  Аниме - японская анимация. Каждое аниме может иметь свой собственный уникальный стиль, но мы всё равно можем отличить аниме от других видов анимации.
-        Жанров в аниме столько же сколько и в фильмах, а может даже больше. Большинство аниме создаются по манге или компьютерной игре.  </h1> </center>
+    <h1>  Аниме - японская анимация. Каждое аниме может иметь свой собственный уникальный стиль, но мы всё равно можем отличить аниме от других видов анимации.
+        Жанров в аниме столько же сколько и в фильмах, а может даже больше. Большинство аниме создаются по манге или компьютерной игре.  </h1>
 </header>
 <main class="block-parrent">
     <aside class="aside-righr">
-
     </aside>
     <aside class="aside-left">
-        <form action="/action_form.php" method="get">
-            Имя: <input type="text" name="firstname"><br>
-            Фамилия: <input type="text" name="lastname"><br> <style media="screen">
-            body{
-                background-image: url("https://cdn2.static1-sima-land.com/items/3001814/1/700-nw.jpg");
-                background-attachment: scroll;
-            }
-            header {
-                background-color:DarkGray;
-                border: 2px double black;
-                height:80px;
-                width: calc(100%-20px);
-                margin: 25px;
-                padding: 10px;
-                font-size: 0.9em;
-                float: inherit;
-                font-size: 0.6em;
-            }
-            footer {
-                background-color:DarkGray;
-                border: 2px double black;
-                height:25px;
-                width: calc(100%-20px);
-                margin: 25px;
-                padding: 10px;
-                font-size: 0.9em;
-                float: inherit;
-                font-weight: bold;
-            }
-            .block-parrent {
-                border: 4px double DimGrey;
-                border-radius: 8px;
-                height: 1500px;
-                background-color: DarkGray;
-                width: calc(100%-20px);
-                margin: 20px;
-                margin-left: 95px;
-                margin-right: 95px;
-                padding: 15px;
-                float: inherit;
-            }
-            .aside-righr {
-                background:GhostWhite;
-                padding:5px;
-                width: 320px;
-                height:100%;
-                border-radius: 8px;
-                float: right;
-            }
-            .aside-left {
-                background:GhostWhite;
-                padding:5px;
-                width: 180px;
-                height:100%;
-                border-radius: 8px;
-                float: left;
-            }
-            .block-dother{
-                border: 4px double silver;
-                border-radius: 15px;
-                height: 320px;
-                width: 730px;
-                background-color: GhostWhite;
-                margin: 10px;
-                margin-left: 180px;
-                padding: 15px;
-                float: left;
-            }
-            .description-on-block{
-                float: left;
-                display: inline;
-                width: 250px;
-                height: 50px;
-                margin-left: 25px;
-                font-size: 0.9em;
-            }
-            .information-on-block{
-                float: left;
-                display: inline;
-                width: 450px;
-                height: 25px;
-                margin-top: 75px;
-                margin-left: 15px;
-                font-size: 0.8em;
-            }
-            .form-block{
-
-            }
-        </style>
-            <input type="submit" value="Отправить">
+        <button class="button" onclick="display()" > Вход </button>
+        <button class="button">Регистрация</button>
+        <form action="" id="input" name="form" class="registration-blocks">
+            Login: <input type="text" name="login"> <br>
+            Password: <input type="password" name="parol"> <br>
+            <input type="button" class="button" value="Отправить" onClick='Vhod()'>
         </form>
     </aside>
     <div class="block-dother">
